@@ -81,7 +81,7 @@ class BatchVerificationSystem:
     def connect(self):
         """returns a cursor and its database if successful connection established to mysql server"""
         try:
-            db = pymysql.connect("localhost", "BVS", "3Qu1n1t1", "bvs_db")
+            db = pymysql.connect("localhost", "BVS", "BVS", "bvs_db")
             cursor = db.cursor()
         except pymysql.err.OperationalError as e:
             print('Connection error... {}'.format(e))

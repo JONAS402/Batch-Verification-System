@@ -4,12 +4,12 @@ import pymysql
 
 # Open database connection
 
-db = pymysql.connect("localhost", "BVS", "3Qu1n1t1")
+db = pymysql.connect("localhost", "BVS", "BVS")
 cursor = db.cursor()
 
 cursor.execute("CREATE DATABASE IF NOT EXISTS bvs_db")
 db.close()
-db = pymysql.connect("localhost", "BVS", "3Qu1n1t1", "bvs_db")
+db = pymysql.connect("localhost", "BVS", "BVS", "bvs_db")
 
 # prepare a cursor object using cursor() method
 cursor = db.cursor()

@@ -4,7 +4,7 @@ import os
 import random
 import time
 
-sample = './src/00638_00019_Banco_1_1_3.prn'
+sample = './src/SampleFile.prn'
 
 print_dir = '/home/jonas/EQ/Print/'
 

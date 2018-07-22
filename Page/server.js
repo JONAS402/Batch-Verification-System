@@ -39,7 +39,7 @@ function logResults(result) {
 var con = mysql.createConnection({
     host: "localhost",
     user: "BVS",
-    password: "3Qu1n1t1",
+    password: "BVS",
     database: "bvs_db"
 });
 
