@@ -1,0 +1,6 @@
+crest install scripts
+trawl for open/closed batches on separate thread
+
+add open/closed batches to index.html
+
+finish search by date

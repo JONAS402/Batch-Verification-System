@@ -1,0 +1,31 @@
+﻿<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="jquery.js"></script>
+</head>
+   <body>
+      
+      <form action = "http://port-8081.node1-jonas402.codeanyapp.com/process_post" method = "POST">
+         First Name: <input type = "text" name = "first_name"> <br>
+         Last Name: <input type = "text" name = "last_name">
+         <input type = "submit" value = "Submit">
+      </form>
+
+      <!--<form action = "http://port-8081.node1-jonas402.codeanyapp.com/search_batch" method = "POST">-->
+      <form action='' method='POST' id='batch_form'>
+      <p>search for batch number</p>
+      <input type='text' name = "batch_name"/>
+      <input type='submit' value='Submit'id='batch_button'/>
+      </form>
+
+	<!--<form action = "http://port-8081.node1-jonas402.codeanyapp.com/search_size" method = "POST">-->
+      <form action='' method='POST' id='size_form'>
+      <p>search for size</p>
+      <input type='text' name="batch_size" id='batchsize'/>
+      <input type='submit' value='Submit'id='size_button' method='POST'/>
+      </form>
+	<div id='response'></div>
+	<table id='results'>
+   </body>
+</html>

@@ -1,0 +1,44 @@
+﻿h1 {
+    color: red;
+}
+
+body {
+    background-color: rgba(1, 20, 1, 0.2);
+    font-family: "Segoe UI";
+    height: 100%;
+}
+
+
+#results-found, #results-number {
+    color: greenyellow;
+}
+/*
+#results {
+    position: fixed; /* Set the navbar to fixed position */
+/*top: 0; /* Position the navbar at the top of the page
+width: 100%;
+}
+*/
+.table {
+    height: 80%;
+    overflow: auto;
+}
+/*
+#footer {
+    position:absolute;
+    bottom:0; width:100%;
+    height:30px; Height of the footer */
+    /*height:10%
+    background-color: rgba(1, 20, 1, 0.6);
+    color: white;
+    overflow: hidden;
+}
+*/
+#footer { 
+    position: fixed;
+    bottom: 0px;
+    overflow: hide;
+    width: 100%;
+    background-color: rgba(1, 20, 1, 0.6);
+    color: white;
+}
